@@ -1,0 +1,11 @@
+version: '3.8'
+service:
+db:
+image: postgres
+volume:
+- ./data/db:var/lib/postgresql/data
+ports: 
+- "5432:5432"
+- POSTGRES_USER=postgres
+- POSTGRES_PASSWORD=postgres
+- POSTGRES_DB=postgres
