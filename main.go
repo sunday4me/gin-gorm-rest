@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/sunday4me/gin-gorm-rest/config"
 	"github.com/sunday4me/gin-gorm-rest/routes"
 )
 
